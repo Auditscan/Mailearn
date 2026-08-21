@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Earn ₦200 Per Approved Email Setup Task | MailEarn</title>
+  <meta name="description" content="Complete approved smartphone-based email setup tasks and earn ₦200 per verified task. Clear instructions, transparent payment, and responsible-use guidelines.">
+  <meta property="og:title" content="Earn ₦200 Per Approved Email Setup Task | MailEarn">
+  <meta property="og:description" content="Complete approved smartphone-based email setup tasks and earn ₦200 per verified task. Clear instructions, transparent payment, and responsible-use guidelines.">
+  <meta property="og:image" content="https://res.cloudinary.com/dxpm02b6i/image/upload/v1787346643/file_000000002f34824393f718f156fe4cf7_qajiuh.png">
+  <meta property="og:url" content="https://www.mailearn.com">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0b3b5c">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✉️</text></svg>">
+  <style>
+    /* ===== RESET & BASE ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: #fafcfd;
+      color: #1a2a3a;
+      line-height: 1.5;
+      padding: 0 1rem 3rem;
+    }
+
+    a {
+      color: #0b3b5c;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 0.5rem;
+    }
+
+    /* ===== TYPOGRAPHY ===== */
+    h1, h2, h3 {
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.75rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 0.75rem;
+      color: #1f3a4b;
+    }
+
+    .text-muted {
+      color: #3d5a6d;
+      font-size: 0.95rem;
+    }
+
+    .text-small {
+      font-size: 0.9rem;
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      border-radius: 60px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      border: none;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-align: center;
+      background: #e9f0f5;
+      color: #0b3b5c;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    }
+
+    .btn-primary {
+      background: #0b3b5c;
+      color: white;
+      box-shadow: 0 8px 18px -6px rgba(11, 59, 92, 0.25);
+    }
+
+    .btn-primary:hover {
+      background: #124b70;
+      transform: scale(1.02);
+      box-shadow: 0 12px 24px -8px rgba(11, 59, 92, 0.3);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 2px solid #0b3b5c;
+      color: #0b3b5c;
+    }
+
+    .btn-outline:hover {
+      background: #0b3b5c0d;
+    }
+
+    .btn-block {
+      display: block;
+      width: 100%;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-top: 1.2rem;
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: white;
+      box-shadow: 0 8px 18px -6px rgba(37, 211, 102, 0.35);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .btn-whatsapp:hover {
+      background: #1ebe5a;
+      transform: scale(1.02);
+    }
+
+    /* ===== HEADER / NAV ===== */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #0b3b5c;
+      letter-spacing: -0.5px;
+    }
+
+    .logo span {
+      color: #2a7f9c;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+      font-weight: 500;
+    }
+
+    .nav-links a {
+      color: #1f3a4b;
+      font-size: 0.95rem;
+      padding: 0.3rem 0;
+      border-bottom: 2px solid transparent;
+      transition: 0.1s;
+    }
+
+    .nav-links a:hover {
+      border-bottom-color: #0b3b5c;
+    }
+
+    .nav-cta {
+      background: #25D366;
+      color: white !important;
+      padding: 0.5rem 1.2rem !important;
+      border-radius: 40px;
+      border-bottom: none !important;
+    }
+
+    .nav-cta:hover {
+      background: #1ebe5a;
+    }
+
+    .mobile-menu-toggle {
+      display: none;
+      font-size: 1.8rem;
+      background: none;
+      border: none;
+      color: #0b3b5c;
+      cursor: pointer;
+      padding: 0 0.3rem;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      padding: 1.5rem 0 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .hero-text {
+      flex: 1 1 300px;
+    }
+
+    .hero-image {
+      flex: 1 1 200px;
+      text-align: center;
+    }
+
+    .hero-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 24px;
+      box-shadow: 0 12px 32px -12px rgba(0,0,0,0.12);
+      display: block;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: 2.6rem;
+    }
+
+    .hero .sub {
+      font-size: 1.2rem;
+      color: #1f3a4b;
+      margin: 0.75rem 0 1rem;
+    }
+
+    .trust-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      background: #eef4f8;
+      padding: 0.7rem 1.2rem;
+      border-radius: 60px;
+      margin-top: 1.2rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #0b3b5c;
+    }
+
+    /* ===== SECTION SPACING ===== */
+    section {
+      padding: 2.5rem 0;
+      border-bottom: 1px solid #e2ecf3;
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .section-title h2 {
+      margin-bottom: 0.3rem;
+    }
+
+    /* ===== CARDS / GRID ===== */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.8rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.8rem 1.5rem;
+      border-radius: 28px;
+      box-shadow: 0 10px 25px -10px rgba(11, 59, 92, 0.08);
+      transition: 0.2s;
+      border: 1px solid #e6eff5;
+    }
+
+    .card:hover {
+      box-shadow: 0 16px 32px -12px rgba(11, 59, 92, 0.12);
+    }
+
+    .card-icon {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ===== OBJECTION SECTION ===== */
+    .objection-box {
+      background: #f0f7fb;
+      border-radius: 40px;
+      padding: 2rem 2rem 1.8rem;
+      border-left: 6px solid #0b3b5c;
+    }
+
+    .use-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      margin: 1rem 0 0.8rem;
+    }
+
+    .use-tag {
+      background: white;
+      padding: 0.2rem 1rem;
+      border-radius: 40px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #0b3b5c;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+      border: 1px solid #d4e3ed;
+    }
+
+    /* ===== EARNING TABLE ===== */
+    .earning-example {
+      background: white;
+      border-radius: 28px;
+      padding: 1.5rem;
+      border: 1px solid #e2ecf3;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .earning-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.6rem 0;
+      border-bottom: 1px dashed #dce8f0;
+    }
+
+    .earning-row:last-child {
+      border-bottom: none;
+    }
+
+    .earning-row .amount {
+      font-weight: 700;
+      color: #0b3b5c;
+    }
+
+    /* ===== TESTIMONIALS ===== */
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .testimonial-card {
+      background: white;
+      padding: 1.8rem;
+      border-radius: 32px;
+      border: 1px solid #e2ecf3;
+    }
+
+    .testimonial-card .stars {
+      color: #f5b342;
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+      margin-bottom: 0.3rem;
+    }
+
+    .testimonial-card p {
+      font-style: italic;
+      margin-bottom: 0.5rem;
+    }
+
+    .testimonial-card .author {
+      font-weight: 600;
+      color: #0b3b5c;
+    }
+
+    .testimonial-badge {
+      display: inline-block;
+      background: #e3edf4;
+      font-size: 0.7rem;
+      padding: 0.2rem 0.8rem;
+      border-radius: 40px;
+      font-weight: 600;
+      color: #0b3b5c;
+      letter-spacing: 0.3px;
+    }
+
+    .demo-label {
+      font-size: 0.7rem;
+      background: #eef4f8;
+      padding: 0.2rem 0.8rem;
+      border-radius: 40px;
+      color: #3d5a6d;
+      display: inline-block;
+    }
+
+    /* ===== STEPS ===== */
+    .step-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      counter-reset: step;
+    }
+
+    .step-item {
+      background: white;
+      padding: 1.8rem 1.5rem;
+      border-radius: 28px;
+      border: 1px solid #e6eff5;
+      position: relative;
+      counter-increment: step;
+    }
+
+    .step-item::before {
+      content: counter(step);
+      background: #0b3b5c;
+      color: white;
+      font-weight: 700;
+      width: 32px;
+      height: 32px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 60px;
+      margin-bottom: 0.8rem;
+      font-size: 1rem;
+    }
+
+    /* ===== CONTACT / WHATSAPP ===== */
+    .contact-card {
+      background: white;
+      padding: 2.5rem 2rem;
+      border-radius: 40px;
+      border: 1px solid #e2ecf3;
+      max-width: 580px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .contact-card .big-icon {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .whatsapp-number {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #0b3b5c;
+      background: #eef4f8;
+      padding: 0.3rem 1.2rem;
+      border-radius: 60px;
+      display: inline-block;
+      margin: 0.5rem 0 1rem;
+    }
+
+    .security-notice {
+      background: #fdf2e9;
+      padding: 0.8rem 1rem;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      border-left: 4px solid #c55a2b;
+      margin: 1.2rem 0 0.5rem;
+    }
+
+    .security-notice-dark {
+      background: #f0f7fb;
+      padding: 0.8rem 1rem;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      border-left: 4px solid #0b3b5c;
+      margin: 1rem 0;
+    }
+
+    /* ===== FAQ ACCORDION ===== */
+    .faq-item {
+      border-bottom: 1px solid #dce8f0;
+      padding: 0.8rem 0;
+    }
+
+    .faq-question {
+      background: none;
+      border: none;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #0b3b5c;
+      width: 100%;
+      text-align: left;
+      padding: 0.5rem 0;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-question::after {
+      content: '+';
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: #2a7f9c;
+    }
+
+    .faq-item.active .faq-question::after {
+      content: '−';
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.25s ease;
+      color: #1f3a4b;
+      padding: 0 0.2rem;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 400px;
+      padding: 0.4rem 0.2rem 1rem;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid #dce8f0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 1.8rem;
+    }
+
+    .footer-links a {
+      color: #1f3a4b;
+    }
+
+    .footer small {
+      color: #3d5a6d;
+    }
+
+    /* ===== STICKY MOBILE CTA ===== */
+    .sticky-cta {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: white;
+      padding: 0.8rem 1rem;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.06);
+      border-top: 1px solid #e2ecf3;
+      z-index: 999;
+      gap: 0.5rem;
+    }
+
+    .sticky-cta .btn {
+      flex: 1;
+      padding: 0.7rem 0.5rem;
+      font-size: 1rem;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 700px) {
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.6rem; }
+      .hero h1 { font-size: 2.1rem; }
+      .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 1rem 0 0.5rem;
+      }
+      .nav-links.open {
+        display: flex;
+      }
+      .mobile-menu-toggle {
+        display: block;
+      }
+      .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+      .trust-strip {
+        justify-content: center;
+        border-radius: 40px;
+      }
+      .btn-group {
+        justify-content: center;
+      }
+      .section-title {
+        text-align: left;
+      }
+      .sticky-cta {
+        display: flex;
+      }
+      body {
+        padding-bottom: 5.5rem;
+      }
+      .objection-box {
+        padding: 1.5rem;
+      }
+      .contact-card {
+        padding: 1.8rem 1rem;
+      }
+    }
+
+    @media (min-width: 701px) {
+      .mobile-menu-toggle {
+        display: none;
+      }
+    }
+
+    /* ===== UTILITY ===== */
+    .text-center { text-align: center; }
+    .mt-1 { margin-top: 1rem; }
+    .mt-2 { margin-top: 2rem; }
+    .mb-1 { margin-bottom: 1rem; }
+    .gap-1 { gap: 0.5rem; }
+
+    .badge-soft {
+      background: #e3edf4;
+      padding: 0.2rem 0.8rem;
+      border-radius: 40px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #0b3b5c;
+      display: inline-block;
+    }
+
+    .inline-icon {
+      font-size: 1.3rem;
+      vertical-align: middle;
+      margin-right: 0.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- ===== NAV ===== -->
+  <nav class="navbar">
+    <div class="logo">Mail<span>Earn</span></div>
+    <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#how-it-works">How It Works</a>
+      <a href="#earn">Earn</a>
+      <a href="#safety">Safety</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://wa.link/rzktt3" target="_blank" class="nav-cta">💬 Start Earning</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Got a Phone? You Can Earn From Simple Email Setup Tasks.</h1>
+      <p class="sub">Complete approved email setup tasks from your phone and earn ₦200 for every successfully verified task.</p>
+      <div class="btn-group">
+        <a href="https://wa.link/rzktt3" target="_blank" class="btn btn-whatsapp">💬 Start Earning on WhatsApp</a>
+        <a href="#how-it-works" class="btn btn-outline">How It Works</a>
+      </div>
+      <div class="trust-strip">
+        <span>✅ Clear instructions</span>
+        <span>🔍 Verification before payment</span>
+        <span>🚫 No upfront fee</span>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://res.cloudinary.com/dxpm02b6i/image/upload/v1787346643/file_000000002f34824393f718f156fe4cf7_qajiuh.png" alt="MailEarn dashboard preview" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ===== OBJECTION ===== -->
+  <section>
+    <div class="objection-box">
+      <h2 style="font-size: 1.6rem;">Wait — What Are These Emails Used For?</h2>
+      <p style="font-size: 1.05rem;"><strong>These are intended for legitimate professional and administrative communication — not scams, phishing, impersonation, or spam.</strong></p>
+      <div class="use-tags">
+        <span class="use-tag">💼 Business communication</span>
+        <span class="use-tag">📢 Freelance outreach</span>
+        <span class="use-tag">📄 Job &amp; internship applications</span>
+        <span class="use-tag">🤝 Client communication</span>
+        <span class="use-tag">🌐 Professional networking</span>
+        <span class="use-tag">⚙️ Account administration</span>
+        <span class="use-tag">📞 Customer-support communication</span>
+        <span class="use-tag">📊 Business research</span>
+      </div>
+      <p><strong>We do not support using accounts for fraud, phishing, spam, impersonation, harassment, or other abusive activity.</strong></p>
+      <p style="margin-top: 0.2rem;"><a href="#responsible-use" style="font-weight: 600;">📄 Responsible Use →</a></p>
+    </div>
+  </section>
+
+  <!-- ===== EARN SECTION ===== -->
+  <section id="earn">
+    <div class="section-title">
+      <h2>Turn Spare Time Into Extra Cash.</h2>
+      <p class="text-muted">You already have the basic tools you need — a smartphone and internet access. Instead of spending hours looking for complicated online jobs, you can complete straightforward approved setup tasks and get paid when the work is verified.</p>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center;">
+      <div class="earning-example">
+        <div class="earning-row"><span>1 approved Gmail setup</span><span class="amount">₦200</span></div>
+        <div class="earning-row"><span>5 approved Gmail setups</span><span class="amount">₦1,000</span></div>
+        <div class="earning-row"><span>10 approved Gmail setups</span><span class="amount">₦2,000</span></div>
+        <div class="earning-row"><span>25 approved Gmail setups</span><span class="amount">₦5,000</span></div>
+        <p style="font-size: 0.8rem; margin-top: 0.8rem; color: #3d5a6d;">* Examples — actual earnings depend on available tasks and verification.</p>
+      </div>
+      <div style="max-width: 320px;">
+        <p><span class="inline-icon">📱</span> Complete from your phone.</p>
+        <p><span class="inline-icon">✅</span> Clear instructions &amp; verification.</p>
+        <p><span class="inline-icon">💰</span> ₦200 per approved task.</p>
+        <p class="text-small text-muted">New tasks become available based on demand and verification capacity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section>
+    <div class="section-title">
+      <h2>What Contributors Say</h2>
+      <span class="demo-label">Illustrative contributor experiences</span>
+    </div>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>“I needed some extra cash that evening and honestly didn't expect something this simple to help. I completed an approved task from my phone, submitted it for verification, and received my payment after it was approved. It wasn't a huge amount, but it helped me when I needed it.”</p>
+        <div class="author">— Amina, Ilorin</div>
+        <span class="testimonial-badge">✓ Verified contributor</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>“I was starving and saw this on a friend's status on WhatsApp. I was able to set 5 up to buy bread and egg.”</p>
+        <div class="author">— Ayo, KWASU</div>
+        <span class="testimonial-badge">✓ Verified contributor</span>
+      </div>
+    </div>
+    <p class="text-center text-small text-muted" style="margin-top: 1rem;">These are illustrative testimonials based on common contributor experiences. Actual results vary.</p>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section id="how-it-works">
+    <div class="section-title">
+      <h2>How It Works</h2>
+      <p class="text-muted">Simple steps from task request to payment.</p>
+    </div>
+    <div class="step-list">
+      <div class="step-item"><strong>Request a task</strong><p>Contact the task team or select an available task.</p></div>
+      <div class="step-item"><strong>Receive instructions</strong><p>The support team provides the approved task details, including required account information and naming format.</p></div>
+      <div class="step-item"><strong>Complete &amp; verify</strong><p>Complete the setup according to the instructions and submit the required verification.</p></div>
+      <div class="step-item"><strong>Get paid</strong><p>Once the task passes verification, your ₦200 payment is released according to the platform's payment schedule.</p></div>
+    </div>
+    <p class="text-center text-muted" style="margin-top: 1.5rem;"><strong>Repeat when more tasks are available.</strong> Task availability is not guaranteed. New tasks depend on customer demand and platform capacity.</p>
+  </section>
+
+  <!-- ===== SAFETY / TRUST ===== -->
+  <section id="safety">
+    <div class="section-title">
+      <h2>Why People Are Skeptical — And That's Fair.</h2>
+      <p class="text-muted">There are plenty of online offers that promise easy money and turn out to be scams. That's why we don't expect you to trust us simply because we say we're legitimate.</p>
+    </div>
+    <div class="grid-2">
+      <div class="card"><span class="card-icon">🛡️</span><h3>No upfront payment</h3><p>No upfront fee to become a contributor.</p></div>
+      <div class="card"><span class="card-icon">📋</span><h3>Clear instructions</h3><p>Every task comes with step-by-step guidance.</p></div>
+      <div class="card"><span class="card-icon">🔍</span><h3>Verification before payment</h3><p>Work is reviewed before payment is released.</p></div>
+      <div class="card"><span class="card-icon">💰</span><h3>Transparent amount</h3><p>You know exactly what you earn per approved task.</p></div>
+      <div class="card"><span class="card-icon">⚖️</span><h3>Responsible-use rules</h3><p>We prohibit spam, fraud, and abuse.</p></div>
+      <div class="card"><span class="card-icon">💬</span><h3>Support available</h3><p>Reach out if you have a problem.</p></div>
+    </div>
+    <div class="security-notice" style="margin-top: 1.5rem;">
+      <strong>🔐 Never give anyone your password, OTP, recovery code, or other security credentials.</strong> If anyone asks you to pay money to unlock your earnings or requests your security code, stop and contact support immediately.
+    </div>
+  </section>
+
+  <!-- ===== PAYMENT ===== -->
+  <section>
+    <div class="section-title">
+      <h2>Simple, Transparent Payment</h2>
+    </div>
+    <div style="max-width: 500px; margin: 0 auto; text-align: center;">
+      <div style="font-size: 3rem; font-weight: 700; color: #0b3b5c;">₦200</div>
+      <p style="font-size: 1.2rem;">per approved Gmail setup</p>
+      <p class="text-muted">Payment is based on successfully verified work. A task that fails verification may require correction or may not qualify for payment.</p>
+      <div style="background: #eef4f8; border-radius: 60px; padding: 0.8rem 1.5rem; margin: 1rem 0;">
+        <span style="font-weight: 500;">Payment methods:</span> Bank transfer, Paga, Opay (subject to availability)
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / WHATSAPP ===== -->
+  <section id="contact">
+    <div class="section-title">
+      <h2>Get Started</h2>
+      <p class="text-muted">Reach out on WhatsApp to begin earning.</p>
+    </div>
+    <div class="contact-card">
+      <div class="big-icon">💬</div>
+      <h3 style="margin-bottom: 0.3rem;">Start Your First Task Today</h3>
+      <p>Click the button below to message us on WhatsApp. We'll guide you through the first approved setup task.</p>
+      <div class="whatsapp-number">+234 815 664 5515</div>
+      <a href="https://wa.link/rzktt3" target="_blank" class="btn btn-whatsapp" style="font-size: 1.2rem; padding: 0.9rem 2.5rem;">💬 Message Us on WhatsApp</a>
+      <p style="font-size: 0.8rem; margin-top: 0.8rem; color: #3d5a6d;">By reaching out, you agree to our <a href="#terms">Terms</a> and <a href="#privacy">Privacy Policy</a>.</p>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq">
+    <div class="section-title"><h2>Frequently Asked Questions</h2></div>
+    <div style="max-width: 720px; margin: 0 auto;">
+      <div class="faq-item active">
+        <button class="faq-question">Do I need a laptop?</button>
+        <div class="faq-answer"><p>No. Approved tasks can generally be completed from a smartphone, provided your device and internet connection meet the requirements.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How much do I earn?</button>
+        <div class="faq-answer"><p>₦200 per approved Gmail setup under the current contributor rate. Rates and task availability may change.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Can I complete unlimited tasks?</button>
+        <div class="faq-answer"><p>No. Tasks are subject to availability, verification, and platform demand.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Do I need to pay before I start?</button>
+        <div class="faq-answer"><p>No upfront contributor fee should be required. If anyone asks for payment, it's not legitimate.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Is this a scam?</button>
+        <div class="faq-answer"><p>Legitimate work should never require you to surrender passwords, OTPs, recovery codes, or money simply to receive a task. We also clearly state what the service is and what it is not.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What are the emails used for?</button>
+        <div class="faq-answer"><p>Approved use cases include legitimate professional communication, business administration, applications, networking, and similar lawful purposes. Spam, phishing, impersonation, fraud, and abusive activity are prohibited.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What happens if my task fails verification?</button>
+        <div class="faq-answer"><p>You may be asked to correct the submission where possible. Tasks that do not meet the requirements may not qualify for payment.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Can I use these accounts for spam?</button>
+        <div class="faq-answer"><p>No. Spam, phishing, impersonation, fraud, and other abusive activity are prohibited.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESPONSIBLE USE (anchor) ===== -->
+  <section id="responsible-use" style="border-bottom: none; padding-bottom: 0.5rem;">
+    <h2 style="font-size: 1.6rem;">Responsible Use &amp; Legal</h2>
+    <p><strong>Prohibited activities include:</strong> spam, phishing, fraud, impersonation, harassment, malware, unauthorized access, credential theft, account abuse, circumvention of provider restrictions, and any unlawful activity.</p>
+    <p>Users are responsible for complying with the terms and policies applicable to the email provider and the laws applicable to their activities.</p>
+    <p class="text-small text-muted">MailEarn is an independent service and is not affiliated with Google or Gmail.</p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div>
+      <div class="logo" style="font-size: 1.3rem;">Mail<span>Earn</span></div>
+      <p style="max-width: 300px; margin-top: 0.3rem;">Simple smartphone-based task opportunities with transparent contributor payments.</p>
+      <small>MailEarn is an independent service and is not affiliated with Google or Gmail.</small>
+    </div>
+    <div class="footer-links">
+      <a href="https://wa.link/rzktt3" target="_blank">💬 WhatsApp</a>
+      <a href="#responsible-use">Responsible Use</a>
+      <a href="#terms">Terms</a>
+      <a href="#privacy">Privacy</a>
+    </div>
+  </footer>
+
+  <!-- ===== STICKY MOBILE CTA ===== -->
+  <div class="sticky-cta">
+    <a href="https://wa.link/rzktt3" target="_blank" class="btn btn-whatsapp">💬 Start on WhatsApp</a>
+    <a href="#how-it-works" class="btn btn-outline" style="flex: 0.7;">How It Works</a>
+  </div>
+
+</div>
+
+<script>
+  (function() {
+    // Mobile nav toggle
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('navLinks');
+    if (toggle && nav) {
+      toggle.addEventListener('click', function(e) {
+        e.stopPropagation();
+        nav.classList.toggle('open');
+      });
+      nav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => nav.classList.remove('open'));
+      });
+    }
+
+    // FAQ accordion
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const btn = item.querySelector('.faq-question');
+      btn.addEventListener('click', function() {
+        faqItems.forEach(i => {
+          if (i !== item) i.classList.remove('active');
+        });
+        item.classList.toggle('active');
+      });
+    });
+  })();
+</script>
+
+</body>
+                                                                                                                                                                                                                                                                                                    </html>
